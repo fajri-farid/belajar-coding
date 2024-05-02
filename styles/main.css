@@ -13,3 +13,16 @@
   padding: 1.4rem;
   text-align: center;
 }
+
+.nav {
+  background-color: #362c2a;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around; /* Merenggangkan elemen secara merata */
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #dad0c4;
+}
