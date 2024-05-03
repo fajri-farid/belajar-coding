@@ -55,8 +55,8 @@ aside p {
   margin-bottom: 1rem;
 }
 
-aside span{
-    font-weight: 700;
+aside span {
+  font-weight: 700;
 }
 
 #container a:hover {
@@ -67,7 +67,7 @@ main {
   padding: 2rem 5%;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   #container {
     grid-template-columns: 1fr;
   }

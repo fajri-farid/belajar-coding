@@ -33,6 +33,10 @@ nav a {
   color: #dad0c4;
 }
 
+nav a:hover{
+  scale: 1.05;
+}
+
 main {
   padding: 2rem 10%;
 }
