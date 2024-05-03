@@ -1,0 +1,84 @@
+main {
+  color: #3c3732;
+  text-decoration: none;
+}
+
+a {
+  color: #3c3732;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+#container h1 {
+  text-align: center;
+}
+
+article {
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+article h2 {
+  margin-bottom: 1rem; /* Menambahkan jarak di bawah setiap elemen <h2> di dalam <article> */
+}
+
+article img {
+  width: 30rem;
+  display: block; /* Membuat gambar menjadi blok agar dapat diatur margin secara otomatis */
+  margin: 0 auto 1.5rem; /* Memberikan margin otomatis secara horizontal untuk menengahkan gambar dan jarak di bawahnya */
+}
+
+article p {
+  margin-bottom: 1rem; /* Menambahkan jarak di bawah setiap elemen <p> di dalam <article> */
+}
+
+aside {
+  margin-top: 2.5rem;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+aside img {
+  width: 8rem;
+  display: block; /* Membuat gambar menjadi blok agar dapat diatur margin secara otomatis */
+  margin: 0 auto 1rem; /* Memberikan margin otomatis secara horizontal untuk menengahkan gambar dan jarak di bawahnya */
+}
+
+aside p {
+  margin-bottom: 1rem;
+}
+
+aside span{
+    font-weight: 700;
+}
+
+#container a:hover {
+  color: blue;
+}
+
+main {
+  padding: 2rem 5%;
+}
+
+@media only screen and (max-width: 800px) {
+  #container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  article img {
+    width: 15rem;
+  }
+
+  aside img {
+    width: 7rem;
+  }
+}
