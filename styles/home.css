@@ -80,5 +80,72 @@ main {
 }
 
 #lang .icon:hover {
-  color: #403c36; /* Mengubah warna saat dihover */
+  color: #2d2b26; /* Mengubah warna saat dihover */
 }
+
+#sec4 {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#sec4 h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+#example {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+#example img {
+  width: 20vw;
+}
+
+.ex {
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.ex button {
+  background-color: #9d9583;
+  padding: 8px;
+  border-radius: 0.5rem;
+  border: none;
+  display: block; /* Mengubah tombol menjadi elemen blok */
+  margin: 0 auto; /* Menengahkan tombol secara horizontal */
+  text-align: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.ex button:hover {
+  background-color: #4a473f;
+  color: #fdf9f1;
+  scale: 1.05;
+}
+
+.ex a {
+  text-decoration: none;
+}
+
+.ex h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.ex img {
+  margin-bottom: 1rem;
+}
+
+#sec4 p {
+  margin-top: 0.6rem;
+  font-size: 1.2rem;
+}
+
