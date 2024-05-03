@@ -57,4 +57,28 @@ main {
 
 #sec3 h3 {
   font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+#lang {
+  font-size: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#part1 i,
+#part2 i {
+  margin-right: 10px;
+  margin-bottom: 2rem; /* Menambahkan jarak antara ikon */
+}
+
+#lang .icon {
+  color: #60574e;
+}
+
+#lang .icon:hover {
+  color: #403c36; /* Mengubah warna saat dihover */
 }
