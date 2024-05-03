@@ -175,6 +175,20 @@ footer a {
 }
 
 @media screen and (max-width: 600px) {
+  .nav {
+    background-color: #362c2a;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row; /* Menjadikan item navbar berada dalam satu baris */
+    overflow-x: auto; /* Membuat navbar dapat di-scroll secara horizontal */
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #dad0c4;
+    margin: 0 10px; /* Menambahkan jarak antara setiap tautan */
+  }
+
   .header {
     padding: 1rem;
   }
@@ -187,8 +201,14 @@ footer a {
   }
 }
 
+
+@media screen and (max-width: 400px) {
+  #kanan a {
+    font-size: 0.65rem;
+  }
+}
 @media screen and (max-width: 350px) {
   #kanan a {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
 }
