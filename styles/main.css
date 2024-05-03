@@ -34,12 +34,12 @@ nav a {
 }
 
 main {
-  padding: 2rem 10rem;
+  padding: 2rem 10%;
 }
 
 footer {
   background-color: #362c2a;
-  padding: 2rem 10rem;
+  padding: 2rem 10%;
   color: #dad0c4;
 }
 
@@ -53,13 +53,18 @@ footer a {
 }
 
 #kiri i {
-  color: white;
+  color: #dad0c4;
   font-size: 2rem;
 }
 
 #kiri h3 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
+}
+
+#kiri a {
+  display: flex;
+  gap: 1rem;
 }
 
 #tengah h4 {
@@ -99,4 +104,91 @@ footer a {
 #footer {
   display: flex;
   justify-content: space-around;
+}
+
+#nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+@media screen and (max-width: 800px) {
+  footer {
+    background-color: #362c2a;
+    padding: 2rem 2%;
+    color: #dad0c4;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Menengahkan konten secara horizontal */
+  }
+
+  #footer > div {
+    margin-bottom: 3rem;
+  }
+
+  #kiri i {
+    font-size: 1.5rem;
+  }
+
+  #kiri h3 {
+    font-size: 1.2rem;
+  }
+
+  #kiri p {
+    font-size: 1rem;
+  }
+
+  #tengah h4 {
+    font-size: 1.2rem;
+  }
+
+  #tengah i {
+    font-size: 1.6rem;
+  }
+
+  #tengah i:hover {
+    scale: 1.15;
+  }
+
+  #kanan h4 {
+    margin-bottom: 1rem;
+  }
+
+  #kanan {
+    align-items: center;
+  }
+
+  #kanan a {
+    font-size: 0.8rem;
+  }
+
+  #nav {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 1rem;
+  }
+
+  .header h1 {
+    font-size: 1.2rem;
+  }
+  .header p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #kanan a {
+    font-size: 0.7rem;
+  }
 }

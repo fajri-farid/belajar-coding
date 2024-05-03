@@ -12,11 +12,11 @@ main {
 }
 
 #sec1 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 #sec1 span {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 #sec1 img {
@@ -108,11 +108,13 @@ main {
 #example {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap; /* Membungkus item ke baris baru saat lebar tidak mencukupi */
+  justify-content: center; /* Menengahkan item secara horizontal */
   gap: 10px;
 }
 
 #example img {
-  width: 20vw;
+  width: 20rem;
 }
 
 .ex {
@@ -155,4 +157,98 @@ main {
 #sec4 p {
   margin-top: 0.6rem;
   font-size: 1.2rem;
+}
+
+/* 1000px kebawah */
+
+@media screen and (max-width: 1000px) {
+  #sec1 h1 {
+    font-size: 1.5rem;
+  }
+  #sec1 span {
+    font-size: 2.5rem;
+  }
+  #example img {
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #sec3 h3 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  #lang {
+    font-size: 5.5rem;
+  }
+
+  #example img {
+    width: 15rem;
+  }
+
+  #sec2 img {
+    width: 50vw;
+    border-radius: 1.5rem;
+  }
+
+  #sec1 img {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #example img {
+    width: 16rem;
+  }
+  #lang {
+    font-size: 4.5rem;
+  }
+
+  #sec1 p {
+    font-size: 1rem;
+  }
+
+  #sec1 h1 {
+    font-size: 2rem;
+  }
+
+  #sec1 span {
+    font-size: 2.5rem;
+  }
+
+  #sec1 img {
+    width: 50vw;
+  }
+
+  #sec2 p {
+    font-size: 1rem;
+  }
+
+  #sec2 img {
+    width: 60vw;
+    border-radius: 1.1rem;
+  }
+
+  #sec2 h2 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  #sec4 p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #lang {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #example img {
+    width: 14rem;
+  }
 }
