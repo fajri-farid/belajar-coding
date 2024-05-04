@@ -33,7 +33,7 @@ nav a {
   color: #dad0c4;
 }
 
-nav a:hover{
+nav a:hover {
   scale: 1.05;
 }
 
@@ -43,7 +43,7 @@ main {
 
 footer {
   background-color: #362c2a;
-  padding: 2rem 10%;
+  padding: 2rem 0;
   color: #dad0c4;
 }
 
@@ -119,7 +119,7 @@ footer a {
 @media screen and (max-width: 800px) {
   footer {
     background-color: #362c2a;
-    padding: 2rem 2%;
+    padding: 2rem 5%;
     color: #dad0c4;
   }
 }
@@ -188,9 +188,10 @@ footer a {
   }
 
   nav a {
+    font-size: 0.8rem;
     text-decoration: none;
     color: #dad0c4;
-    margin: 0 10px; /* Menambahkan jarak antara setiap tautan */
+    margin: 0 15px; /* Menambahkan jarak antara setiap tautan */
   }
 
   .header {
