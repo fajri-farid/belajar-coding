@@ -1,0 +1,12 @@
+{
+  "routes": [
+    { "src": "/", "dest": "/home.html" },
+    { "src": "/css", "dest": "pages/css.html" },
+    { "src": "/html", "dest": "pages/html.html" },
+    { "src": "/javascript", "dest": "pages/javascript.html" },
+    { "src": "/mysql", "dest": "pages/mysql.html" },
+    { "src": "/nodejs", "dest": "pages/nodejs.html" },
+    { "src": "/php", "dest": "pages/php.html" },
+    { "src": "/reactjs", "dest": "pages/reactjs.html" }
+  ]
+}
